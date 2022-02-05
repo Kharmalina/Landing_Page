@@ -99,7 +99,7 @@ a.projects {
     transition-duration: 1s;
     position: absolute;
     top: 15%;
-    left: 52%;
+    left: 53%;
     font-family: 'Merriweather', serif;
 
   }
@@ -120,9 +120,8 @@ a.projects {
     transition-duration: 1s;
     position: absolute;
     top: 15%;
-    left: 38%;   
+    left: 34%;   
     font-family: 'Merriweather', serif;
-
   }
   
   a:hover {
