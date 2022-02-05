@@ -1,0 +1,238 @@
+
+h1, h2 {
+    color:#f2f2f2;
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .logo
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+  }
+
+.image {
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),   rgba(0, 0, 0, 0.75)), url("https://industrywired.com/wp-content/uploads/2020/06/Women-in-FinTech.jpg");
+      
+    /* Full height */
+    height: 100%; 
+      
+    /* Center and scale the image nicely */
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+  }
+
+  /* Position the navbar container inside the image */
+.container-1 {
+    position: absolute;
+    margin: 10px;
+    width: auto;
+    right: 0px;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(22, 230, 3);
+    color: black;
+  }
+
+.header {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.startup {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.projects {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20% auto;
+    background-color: transparent;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: mintcream;
+    transition-property: background-color;
+    transition-duration: 1s;
+    position: absolute;
+    top: 15%;
+    left: 52%;
+    font-family: 'Merriweather', serif;
+
+  }
+ 
+  a.whoweare {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 20% auto;
+    background-color: transparent;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: mintcream;
+    transition-property: background-color;
+    transition-duration: 1s;
+    position: absolute;
+    top: 15%;
+    left: 38%;   
+    font-family: 'Merriweather', serif;
+
+  }
+  
+  a:hover {
+    background-color: rgb(22, 230, 3);
+  }
+
+.bg-color {
+    background-color: rgb(241, 241, 241);
+}
+
+  .grid {
+    display: grid;
+    height: 350px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px;
+    gap: 15px;
+    justify-content: space-between;
+  }
+
+ a.values_button {
+    display: inline-block;
+    width: 140px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 1s;
+    
+ }
+
+.values_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ a.updates_button {
+    display: inline-block;
+    width: 125px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 1s;
+ }
+
+ .updates_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+  
+
+ a.locations_button {
+    display: inline-block;
+    width: 100px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: 2px solid black;
+    color: black;
+    transition-property: background-color;
+    transition-duration: 1s;
+    
+ }
+
+ .locations_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+  .box {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 173, 0);
+  }
+
+  .contact {
+      background-color: rgb(0, 173, 0);
+      height: 250px;
+      text-align: center;
+      padding: 50px 100px;
+      font-family: 'Merriweather', serif;
+  }
+
+
+
+  label {
+      font-weight: 800;
+  }
+
+  .footer {
+      background-color: rgb(51, 51, 51);
+      height: 125px;
+      color: white;
+      text-align: center;
+      font-family: 'Merriweather', serif;
+  }
+
+  a.linkedin {
+  background-color: transparent;
+  }
+
+  a.github {
+      background-color: transparent;
+  }
