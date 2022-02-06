@@ -71,16 +71,16 @@ body, html {
 
 .header {
     position: absolute;
-    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .startup {
     position: absolute;
-    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
+    top: 52%;
+
 }
 
 a.projects {
@@ -89,7 +89,7 @@ a.projects {
     padding: 10px 5px;
     border: 2px solid white;
     border-radius: 5px;
-    margin: 20% auto;
+    margin: 20%;
     background-color: transparent;
     text-align: center;
     font-family: Helvetica;
@@ -97,11 +97,9 @@ a.projects {
     color: mintcream;
     transition-property: background-color;
     transition-duration: 1s;
-    position: absolute;
-    top: 15%;
-    left: 52%;
     font-family: 'Merriweather', serif;
-
+    position: relative;
+    left: 44%;
   }
  
   a.whoweare {
@@ -117,13 +115,10 @@ a.projects {
     font-size: 25px;
     color: mintcream;
     transition-property: background-color;
-    transition-duration: 1s;
-    position: absolute;
-    top: 15%;
-    left: 38%;   
-    font-family: 'Merriweather', serif;
-
+    transition-duration: 1s;   
+    font-family: 'Merriweather', serif; 
   }
+
   
   a:hover {
     background-color: rgb(22, 230, 3);
